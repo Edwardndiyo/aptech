@@ -1,0 +1,35 @@
+
+body {
+    background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+#about {
+    margin-top: 50px;
+}
+
+#services {
+    margin-top: 50px;
+}
+
+#portfolio {
+    margin-top: 50px;
+}
+
+#contact {
+    margin-top: 50px;
+}

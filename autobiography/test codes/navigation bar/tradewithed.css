@@ -1,0 +1,118 @@
+/*  top navigation bar styling*/
+.navbar  {
+    display: flex;  
+    box-shadow: 2px 2px 5px black;
+    
+}
+
+ /*styling the links inside the navigation bar*/
+ .navbar a {
+    float: left;
+    color: purple;
+    text-align: center;
+    padding: 24px 16px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 17px;   
+ }
+ 
+
+ /*change the color of links on hover*/
+ .navbar a:hover{
+    background-color: grey;
+    color: black;
+
+ }
+
+ /* inluding animations and transitions*/
+
+
+@keyframes ndiyo{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 150px;
+    }
+}
+
+
+/*image styling*/
+.img {
+    border-radius: 50%;
+    height: 50px;
+    width: 40px;
+    overflow: hidden;
+    margin-bottom: 4px;
+    padding-left: 30px;
+    padding-right: 1150px;
+    position: relative;
+    animation: ndiyo 3s infinite;
+}
+/*background image and texts styling*/
+
+.bgimg {
+    background-image:url("/gallery/photo-1590283603385-17ffb3a7f29f.avif");
+    height: 750px;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+}
+
+form {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+.centertext{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+    padding: 15px 32px;
+}
+.navtext {
+    float: center;
+}
+.signup {
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+}
+#RAI {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#mapicon {
+    background-color: blanchedalmond;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+aside ul li :hover{
+    background-color: grey;
+    color: black;
+}
+.searchbox {
+    border: bisque;
+    border-radius: 20px;
+    color: aliceblue;
+}

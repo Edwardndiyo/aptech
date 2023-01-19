@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13pt;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 0;
+   
+}
+.section h1 {
+    font-size: 15pt;
+    color: brown;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin: 0 0 10px 0;
+    text-shadow: 4px 2px 3px grey;
+}
+h1 span {
+    border: 4px dashed #c9cecf;
+    padding: 5px;
+}
+h3 {
+    color: burlywood;
+    margin: 5px;
+    text-shadow: 2px 1px 3px black ;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 10px;
+}
+div{
+    margin: 130px;
+    text-align: left;
+    text-indent: 40px;
+    width: 1000px;
+    height: fit-content;
+    border: 4px;
+}
+p{
+    
+    text-align: left;
+    text-indent: 40px;
+    height: fit-content;
+    color: dimgrey;
+
+}
+#education{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 40;
+    letter-spacing: 2px;
+}
+ul {
+    margin: 0px;
+    color: dimgray ;
+    list-style-type: square;
+
+}
+u{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: crosshair;
+}
+a{
+    color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: grab;
+}
+

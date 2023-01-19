@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title> 
+    <style>
+        p{
+            border: 4px;
+            border-style: groove;
+            color: blue;
+            background-color: grey;
+            height: 70px;
+            width: 30px;
+            padding: 10px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+ <form>
+    <input type="text" id="number" value="0"/>
+    <input type="button" onclick="incrementValue()" value="increment Value">
+ </form>
+ <p id="demo"></p>
+ <button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,10)">click Me</button>
+ <script>
+    function getRndInteger(min,max) {
+        return Math.floor(Math.random() * (max-min + 4)) + max;
+    }
+    document.getElementById('demo').innerHTML = Math.floor(Math.random() * 100); 
+ </script>
+</body>
+<script src="/testjavascript.js"></script>
+</html>
